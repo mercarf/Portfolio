@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from './Header';
-import Hero from './Hero';
+import Header from './Header/Header';
+import Hero from './Hero/Hero';
 import AboutMe from './AboutMe';
 import Skills from './Skills';
 import Projects from './Projects';
 import Experience from './Experience';
 import Hobbies from './Hobbies';
-import '../stylesheets/App.css';
+import '../stylesheets/App.scss';
 
 function App() {
   return (

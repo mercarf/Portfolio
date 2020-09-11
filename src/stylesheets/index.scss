@@ -1,0 +1,28 @@
+@import './App.scss';
+@import './reset.scss';
+@import './variables';
+
+//COMPONENTS
+@import '../components/Header/header.scss';
+@import '../components/Hero/hero.scss';
+// @import '../../components/Links/links.scss';
+// @import '../../components/Link/link.scss';
+// @import '../../components/Projects/projects.scss';
+// @import '../../components/Project/project.scss';
+// @import '../../components/Badge/badge.scss';
+// @import '../../components/AboutMe/aboutMe.scss';
+// @import '../../components/Contact/contact.scss';
+
+// body {
+//   margin: 0;
+//   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+//     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+//     sans-serif;
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+// }
+
+// code {
+//   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+//     monospace;
+// }
