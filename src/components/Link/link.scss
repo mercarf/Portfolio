@@ -1,0 +1,16 @@
+.link {
+  text-decoration: underline;
+  color: $dark-color;
+  padding: 10px 20px;
+  font-family: 'Syne Mono', monospace;
+  font-weight: lighter;
+  font-size: 14px;
+
+  &:hover {
+    color: $primary-color;
+  }
+
+  @media all and (min-width: 768px) {
+    font-size: 18px;
+  }
+}

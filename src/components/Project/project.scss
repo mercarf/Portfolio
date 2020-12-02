@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid $primary-color;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  &:hover {
+    background-color: rgba(240, 128, 128, 0.6);
+  }
+  &__img {
+    img {
+      width: 200px;
+      @include tablet {
+        width: 300px;
+      }
+    }
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    &__title {
+      margin: 5px 0;
+    }
+    &__links {
+      display: flex;
+      flex-direction: column;
+      .linkProject {
+        padding: 10px;
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover {
+          & span {
+            color: $secondary-color;
+          }
+          & .web,
+          .repo {
+            background-color: $secondary-color;
+          }
+        }
+        & i {
+          margin: 0 10px;
+        }
+        & .fab {
+          font-size: 30px;
+          font-weight: lighter;
+        }
+        & img {
+          width: 30px;
+          margin-right: 20px;
+          border-radius: 5px;
+        }
+      }
+    }
+    @include tablet {
+      width: 300px;
+    }
+  }
+  @include tablet {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 5px;
+    width: 700px;
+  }
+}

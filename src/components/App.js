@@ -1,11 +1,9 @@
 import React from 'react';
 import Header from './Header/Header';
 import Hero from './Hero/Hero';
-import AboutMe from './AboutMe';
-import Skills from './Skills';
-import Projects from './Projects';
-import Experience from './Experience';
-import Hobbies from './Hobbies';
+import AboutMe from './AboutMe/AboutMe';
+import Skills from './Skills/Skills';
+import Projects from './Projects/Projects';
 import '../stylesheets/App.scss';
 
 function App() {
@@ -14,11 +12,9 @@ function App() {
       <Header />
       <Hero />
       <main>
-        <AboutMe />
-        <Skills />
         <Projects />
-        <Experience />
-        <Hobbies />
+        <Skills />
+        <AboutMe />
       </main>
       <footer>
         <p>Mercedes Carballal Copyright © 2020</p>
