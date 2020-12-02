@@ -17,7 +17,6 @@ const Project = ({ title, imgProject,altProject,tecnologies,linkWeb, linkRepo })
           <div className="container__text__links">
             <a
                 href={linkWeb}
-                
                 target="_blank"
                 rel="noopener noreferrer"
                 className="linkProject"
@@ -25,8 +24,7 @@ const Project = ({ title, imgProject,altProject,tecnologies,linkWeb, linkRepo })
                   <img src={web}className="web"/>
                 <span>Página web</span>
             </a>
-            <a href={linkWeb}
-                
+            <a href={linkRepo}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="linkProject"
@@ -34,7 +32,7 @@ const Project = ({ title, imgProject,altProject,tecnologies,linkWeb, linkRepo })
                   <img src={github}className="repo"/>
                 <span>Repositorio</span></a>
           </div>
-          <p>Info</p>
+          <p>+ Info</p>
 
         </div>
       </div>

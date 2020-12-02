@@ -1,6 +1,10 @@
 .hero {
   height: 100vh;
   padding: 130px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   &__container {
     &__title {

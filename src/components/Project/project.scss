@@ -13,7 +13,9 @@
   }
   &__img {
     img {
-      width: 200px;
+      width: 250px;
+      border-radius: 5px;
+
       @include tablet {
         width: 300px;
       }
@@ -35,9 +37,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
         &:hover {
           & span {
             color: $secondary-color;
+            border-bottom: 1px solid $secondary-color;
           }
           & .web,
           .repo {
@@ -56,6 +60,9 @@
           margin-right: 20px;
           border-radius: 5px;
         }
+        & span {
+          border-bottom: 1px solid $dark-color;
+        }
       }
     }
     @include tablet {
@@ -66,8 +73,6 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-
-    padding: 5px;
     width: 700px;
   }
 }

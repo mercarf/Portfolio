@@ -27,7 +27,7 @@ const Header = () => {
           <ul className='nav-list'>
             
             <li>
-              <a href='#' title='Ir a Proyectos'>
+              <a href='#projects' title='Ir a Proyectos'>
                 Proyectos
               </a>
             </li>
