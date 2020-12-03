@@ -32,12 +32,12 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a href='#' title='Habilidades'>
+              <a href='#skills' title='Habilidades'>
                 Habilidades
               </a>
             </li>
             <li>
-              <a href='#' title='Ir a Sobre mí'>
+              <a href='#aboutMe' title='Ir a Sobre mí'>
                 Sobre mí
               </a>
             </li>

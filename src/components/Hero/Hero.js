@@ -31,7 +31,7 @@ const Hero = () => {
         ¡Hola!
       </h2>
       <p className='hero__container__title'>Soy</p>
-      <p className='hero__container__name'>Mercedes Carballal,</p>
+      <p className='hero__container__name'>Mercedes,</p>
       <p className='hero__container__title'>una persona <span className='hero__container__adjectives'>{adjectives[adjectivesIndex]}</span> </p>
       
       <p className='hero__container__title'>y desarrolladora <span className="hero__container__title__job">front-end</span> </p>{' '}

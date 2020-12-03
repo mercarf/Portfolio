@@ -1,6 +1,158 @@
 .skills {
   display: flex;
   flex-direction: column;
+  padding: 20px;
   &__cont {
+    &__tecnologies {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-end;
+
+      li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5px 10px;
+        width: fit-content;
+      }
+
+      span {
+        color: $secondary-color-light;
+      }
+    }
+    &__tools {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-end;
+
+      li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5px 10px;
+        width: fit-content;
+      }
+
+      span {
+        color: $secondary-color-light;
+      }
+    }
+    &__soft {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      width: fit-content;
+      margin: auto;
+
+      li::before {
+        content: '\2022';
+        color: $primary-color;
+        padding-right: 10px;
+        font-size: 50px;
+        line-height: 25px;
+        vertical-align: -11px;
+        width: 15px;
+      }
+    }
+  }
+
+  i,
+  img {
+    font-size: 50px;
+    margin-bottom: 5px;
+  }
+  span {
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
   }
 }
+
+/* TECNOLOGIES */
+span.HTML {
+  background-color: rgba(253, 152, 44, 0.7);
+}
+.fa-html5 {
+  color: rgb(253, 152, 44);
+}
+span.CSS {
+  background-color: rgba(1, 109, 180, 0.7);
+}
+.fa-css3-alt {
+  color: rgb(1, 109, 180);
+}
+span.SASS {
+  background-color: rgba(199, 100, 148, 0.7);
+}
+.fa-sass {
+  color: rgb(199, 100, 148);
+}
+span.Boostrap {
+  background-color: rgba(83, 59, 120, 0.7);
+}
+.fa-bootstrap {
+  color: rgb(83, 59, 120);
+}
+span.JS {
+  background-color: rgba(239, 216, 29, 0.8);
+}
+.fa-js-square {
+  color: rgb(239, 216, 29);
+}
+span.React {
+  background-color: rgba(94, 211, 243, 0.9);
+}
+.fa-react {
+  color: rgb(94, 211, 243);
+}
+span.Git {
+  background-color: rgba(235, 77, 40, 0.7);
+}
+.fa-git-alt {
+  color: rgb(235, 77, 40);
+}
+span.Gulp {
+  background-color: rgba(228, 72, 73, 0.7);
+}
+.fa-gulp {
+  color: rgb(228, 72, 73);
+}
+
+/* TOOLS */
+span.github {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.fa-github {
+  color: black;
+}
+span.vsc {
+  background-color: rgba(0, 118, 198, 0.7);
+}
+span.npm {
+  background-color: rgba(197, 54, 53, 0.7);
+}
+.fa-npm {
+  color: rgb(197, 54, 53);
+}
+span.trello {
+  background-color: rgba(2, 129, 208, 0.7);
+}
+.fa-trello {
+  color: rgb(2, 129, 208);
+}
+span.slack {
+  background-color: rgba(72, 20, 73, 0.7);
+}
+.fa-slack {
+  color: rgb(72, 20, 73);
+}
+span.zeplin {
+  background-color: rgb(245, 183, 55);
+}
+
+/* SOFT SKILLS */
