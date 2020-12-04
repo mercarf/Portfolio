@@ -18,9 +18,10 @@ const Projects = () => {
   
   return (
     <section className='projects' id="projects">
+<button className="projects__home"><i class="fas fa-home"></i></button>
       <h2 className="projects__title">Proyectos</h2>
-      <div>
-        <ul className="projects__list">
+      <p className="projects__text"> Estos son algunos de los pequeños proyectos que he ido desarrollando</p>
+      <ul className="projects__list">
           <li className="projects__list__pro">
             <Project imgProject={portfolio} title="Portfolio" tecnologies="HTML,SASS,JS,React" linkWeb="mercarf.github.io/portfolio/" linkRepo="https://github.com/mercarf/Portfolio" altProject="imagen del Portfolio"/>
           </li>
@@ -45,10 +46,9 @@ const Projects = () => {
           <li className="projects__list__pro">
             <Project imgProject={anonymous} title="Anonymous Proxy" tecnologies="HTML,CSS" linkWeb="mercarf.github.io/anonymous-proxy/" linkRepo="https://github.com/mercarf/Anonymous-proxy" altProject="imagen de la pagina Anonymous proxy"/>
           </li>
-        </ul>
-      </div>
-      <div>
-        <ul>
+      </ul>
+      <h2 className="projects__title">Proyectos grupales</h2>
+      <ul className="projects__list">     
           <li className="projects__list__pro">
             <Project imgProject={zodiaco} title="Gryffincode" tecnologies="HTML,CSS,JS,React" linkWeb="http://beta.adalab.es/project-j-module-3-team-4/#/" linkRepo="https://github.com/Adalab/project-j-module-3-team-4" altProject="imagen del proyecto Gryffincode"/>
           </li>
@@ -58,8 +58,7 @@ const Projects = () => {
           <li className="projects__list__pro">
             <Project imgProject={quinteto} title="Quinteto de $sudo" tecnologies="HTML,CSS" linkWeb="http://beta.adalab.es/project-promo-j-module-1-team-4/" linkRepo="https://github.com/Adalab/project-promo-j-module-1-team-4" altProject="imagen del proyecto Quinteto de Sudo"/>
           </li>
-        </ul>
-      </div>
+      </ul>
     </section>
   );
 };

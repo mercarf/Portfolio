@@ -67,12 +67,14 @@
     }
     @include tablet {
       width: 300px;
+      padding: 0 10px;
     }
   }
   @include tablet {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 700px;
+    width: 550px;
+    height: 300px;
   }
 }

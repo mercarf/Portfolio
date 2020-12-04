@@ -5,7 +5,7 @@ import zeplin from '../../assets/images/zeplin.svg';
 const Skills = () => {
   return (
     <section className='skills' id="skills">
-      <h2>Habilidades</h2>
+      <h2 className="skills__title">Habilidades</h2>
       <div className="skills__cont">
         <div>
           <h3>Tecnologías</h3>

@@ -1,13 +1,56 @@
 .projects {
-  padding: 70px 10px;
+  padding-top: 70px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   &__title {
     margin-bottom: 30px;
+    font-size: 30px;
+    font-family: 'Syne Mono', monospace;
+    @include tablet {
+      font-size: 40px;
+    }
+  }
+  &__text {
+    margin-bottom: 20px;
+  }
+  &__home {
+    width: 25px;
+    height: 25px;
+    line-height: 1;
+    background-color: $primary-color;
+    text-align: center;
+    line-height: 1;
+    border: none;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    margin: 0 20px 20px 0;
+    cursor: pointer;
+    outline: none;
+
+    @include tablet {
+      width: 50px;
+      height: 50px;
+      line-height: 3.8;
+    }
+    .fas {
+      font-size: 15px;
+      color: $secondary-color;
+      @include tablet {
+        font-size: 30px;
+      }
+    }
   }
   &__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     &__pro {
       margin-bottom: 30px;
     }

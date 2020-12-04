@@ -1,0 +1,18 @@
+.aboutMe {
+  padding-top: 70px;
+  &__title {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family: 'Syne Mono', monospace;
+    @include tablet {
+      font-size: 40px;
+    }
+  }
+  &__cont {
+    // background-image: ;
+    &__img {
+      border-radius: 50%;
+      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+  }
+}

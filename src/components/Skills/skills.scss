@@ -1,13 +1,31 @@
 .skills {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  &__title {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family: 'Syne Mono', monospace;
+    @include tablet {
+      font-size: 40px;
+    }
+  }
   &__cont {
+    width: fit-content;
+    h3 {
+      font-family: 'Syne Mono', monospace;
+      @include tablet {
+        font-size: 24px;
+      }
+    }
     &__tecnologies {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       align-items: flex-end;
+      margin: 20px 0;
 
       li {
         display: flex;
@@ -27,6 +45,7 @@
       flex-wrap: wrap;
       justify-content: center;
       align-items: flex-end;
+      margin: 20px 0;
 
       li {
         display: flex;
@@ -47,16 +66,20 @@
       justify-content: center;
       align-items: flex-start;
       width: fit-content;
-      margin: auto;
+      margin: 20px auto;
+      text-align: left;
 
       li::before {
         content: '\2022';
         color: $primary-color;
-        padding-right: 10px;
+        padding-right: 5px;
         font-size: 50px;
         line-height: 25px;
         vertical-align: -11px;
         width: 15px;
+        @include tablet {
+          padding-right: 10px;
+        }
       }
     }
   }

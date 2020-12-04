@@ -1,26 +1,39 @@
 {
   "files": {
-    "main.css": "./static/css/main.7f4b9946.chunk.css",
-    "main.js": "./static/js/main.427ac01d.chunk.js",
-    "main.js.map": "./static/js/main.427ac01d.chunk.js.map",
+    "main.css": "./static/css/main.e53caa96.chunk.css",
+    "main.js": "./static/js/main.b4c056ed.chunk.js",
+    "main.js.map": "./static/js/main.b4c056ed.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.916853f0.js",
     "runtime-main.js.map": "./static/js/runtime-main.916853f0.js.map",
-    "static/js/2.00df36e6.chunk.js": "./static/js/2.00df36e6.chunk.js",
-    "static/js/2.00df36e6.chunk.js.map": "./static/js/2.00df36e6.chunk.js.map",
+    "static/js/2.47ebda29.chunk.js": "./static/js/2.47ebda29.chunk.js",
+    "static/js/2.47ebda29.chunk.js.map": "./static/js/2.47ebda29.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.82c8a8f426c1355941bbbd69ada4f8e9.js": "./precache-manifest.82c8a8f426c1355941bbbd69ada4f8e9.js",
+    "precache-manifest.b1beb4aa8232d1431c44854a15c2611a.js": "./precache-manifest.b1beb4aa8232d1431c44854a15c2611a.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.7f4b9946.chunk.css.map": "./static/css/main.7f4b9946.chunk.css.map",
-    "static/js/2.00df36e6.chunk.js.LICENSE.txt": "./static/js/2.00df36e6.chunk.js.LICENSE.txt",
+    "static/css/main.e53caa96.chunk.css.map": "./static/css/main.e53caa96.chunk.css.map",
+    "static/js/2.47ebda29.chunk.js.LICENSE.txt": "./static/js/2.47ebda29.chunk.js.LICENSE.txt",
     "static/media/CV Mercedes Carballal.pdf": "./static/media/CV Mercedes Carballal.c94858c4.pdf",
-    "static/media/close bracket.png": "./static/media/close bracket.f761b5a4.png",
+    "static/media/Mercedes.jpg": "./static/media/Mercedes.4c12a6dd.jpg",
+    "static/media/anonymous.PNG": "./static/media/anonymous.a99f9bef.PNG",
     "static/media/github.svg": "./static/media/github.b8ba61fe.svg",
-    "static/media/pcweb.svg": "./static/media/pcweb.ba58718b.svg"
+    "static/media/gryffincode.PNG": "./static/media/gryffincode.bb93beaf.PNG",
+    "static/media/js30.PNG": "./static/media/js30.dde2a55c.PNG",
+    "static/media/numero.PNG": "./static/media/numero.93bf07d7.PNG",
+    "static/media/pcweb.svg": "./static/media/pcweb.ba58718b.svg",
+    "static/media/pokedex.PNG": "./static/media/pokedex.9b1547c7.PNG",
+    "static/media/portfolio.PNG": "./static/media/portfolio.3aa73d6d.PNG",
+    "static/media/quinteto.PNG": "./static/media/quinteto.9790dea6.PNG",
+    "static/media/rickymorty.PNG": "./static/media/rickymorty.1e8f1374.PNG",
+    "static/media/serie.PNG": "./static/media/serie.bf05a525.PNG",
+    "static/media/smile.PNG": "./static/media/smile.d4a1aa43.PNG",
+    "static/media/vsc.png": "./static/media/vsc.3a44eda8.png",
+    "static/media/zeplin.svg": "./static/media/zeplin.dea1d6b0.svg",
+    "static/media/zodiaco.PNG": "./static/media/zodiaco.35d0a3ea.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.916853f0.js",
-    "static/js/2.00df36e6.chunk.js",
-    "static/css/main.7f4b9946.chunk.css",
-    "static/js/main.427ac01d.chunk.js"
+    "static/js/2.47ebda29.chunk.js",
+    "static/css/main.e53caa96.chunk.css",
+    "static/js/main.b4c056ed.chunk.js"
   ]
 }
