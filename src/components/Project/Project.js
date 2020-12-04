@@ -2,7 +2,7 @@ import React from 'react';
 import web from '../../assets/images/pcweb.svg';
 import github from '../../assets/images/github.svg';
 
-const Project = ({ title, imgProject,altProject,tecnologies,linkWeb, linkRepo }) => {
+const Project = ({ title, imgProject,altProject,tecnologies,linkWeb, linkRepo, info }) => {
   return (
     <div className="container">
         <div className="container__img">
@@ -10,6 +10,12 @@ const Project = ({ title, imgProject,altProject,tecnologies,linkWeb, linkRepo })
 
         </div>
         <div className="container__text">
+          <div className="container__text__info">
+            <p>
+            {info}
+            </p>
+
+          </div>
           <h3 className="container__text__title">
             {title}
           </h3>
@@ -32,7 +38,7 @@ const Project = ({ title, imgProject,altProject,tecnologies,linkWeb, linkRepo })
                   <img src={github}className="repo"/>
                 <span>Repositorio</span></a>
           </div>
-          <p>+ Info</p>
+          <p className="container__info">+ Info</p>
 
         </div>
       </div>
