@@ -28,6 +28,8 @@
     bottom: 0px;
     right: 0;
     margin: 0 20px 20px 0;
+    animation-name: bounce;
+    animation-duration: 2s;
 
     @include tablet {
       width: 50px;
@@ -36,6 +38,11 @@
     a {
       text-align: center;
       line-height: 1.5;
+      z-index: 1;
+
+      @include tablet {
+        line-height: 3.5;
+      }
       .fas {
         font-size: 15px;
         color: $secondary-color;
