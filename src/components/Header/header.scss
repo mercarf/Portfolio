@@ -6,19 +6,20 @@
   align-items: center;
   top: 0;
   width: 100%;
-  padding-right: 20px;
   z-index: 999;
 
   .menu {
-    background-color: rgba(253, 245, 239, 0.9);
+    background-color: rgba(158, 192, 205,0.8);
+    border-radius: 10px;
     min-height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: fit-content;
     align-items: center;
     cursor: pointer;
     font-size: 12px;
+    margin-right: auto;
     @include tablet {
       justify-content: flex-end;
       padding: 5px;
@@ -51,10 +52,11 @@
         font-weight: lighter;
         @include tablet {
           padding: 0 15px;
+          font-size: 16px;
         }
       }
       & a:hover {
-        color: $primary-color;
+        color: $light-color;
       }
     }
 
@@ -72,7 +74,7 @@
     }
     .bracket-left:hover,
     .bracket-right:hover {
-      color: $dark-color;
+      color: $light-color;
     }
 
     .hidden {

@@ -15,11 +15,6 @@ import zodiaco from '../../assets/images/zodiaco.PNG';
 const Projects = () => {
   return (
     <section className='projects' id='projects'>
-      <div className='projects__home'>
-        <a href="#hero" title="ir al inicio">
-          <i class='fas fa-home'></i>
-        </a>
-      </div>
       <h2 className='projects__title'>Proyectos</h2>
       <p className='projects__text'>
         {' '}
@@ -30,81 +25,88 @@ const Projects = () => {
           <Project
             imgProject={portfolio}
             title='Portfolio'
-            tecnologies='HTML,SASS,JS,React'
+            tecnologies='HTML | SASS | JS | React'
             linkWeb='mercarf.github.io/portfolio/'
             linkRepo='https://github.com/mercarf/Portfolio'
             altProject='imagen del Portfolio'
-            info="aaa"
+            info="Página web que estás viendo ahora mismo"
           />
         </li>
         <li className='projects__list__pro'>
           <Project
             imgProject={js30}
             title='JavaScript30 Challenges'
-            tecnologies='HTML,SASS,JS'
-            linkWeb='mercarf.github.io/javascript30/'
+            tecnologies='HTML | SASS | JS'
+            linkWeb='https://mercarf.github.io/JavaScript30/'
             linkRepo='https://github.com/mercarf/JavaScript30'
             altProject='imagen de 30 retos JavaScript'
+            info="Varios retos de Wesbos con JavaScript personalizados a mi gusto"
           />
         </li>
         <li className='projects__list__pro'>
           <Project
             imgProject={rickymorty}
             title='Buscador de Personajes'
-            tecnologies='HTML,SASS,JS,React'
-            linkWeb='http://beta.adalab.es/modulo-3-evaluacion-final-mercarf/#/'
-            linkRepo='https://github.com/mercarf/Rick-y-Morty-buscador-de-personajes'
+            tecnologies='HTML | SASS | JS | React'
+            linkWeb='https://mercarf.github.io/Rick-y-Morty-Buscador-personajes/#/'
+            linkRepo='https://github.com/mercarf/Rick-y-Morty-Buscador-personajes'
             altProject='imagen del proyecto Buscador de personajes de Rick y Morty'
+            info="Aplicación web responsive con un listado de personajes ordenados por nombre,filtros y mas informacion al hacer pinchar sobre ellos."
           />
         </li>
         <li className='projects__list__pro'>
           <Project
             imgProject={pokedex}
             title='Pokedex'
-            tecnologies='HTML,SASS,JS,React'
-            linkWeb='http://beta.adalab.es/modulo-3-evaluacion-intermedia-mercarf/'
+            tecnologies='HTML | SASS | JS | React'
+            linkWeb='https://mercarf.github.io/Pokedex/'
             linkRepo='https://github.com/mercarf/Pokedex'
             altProject='imagen del proyecto Buscador de personajes de Rick y Morty'
+            info="Listado de pokemon obtenido a traves de un archivo '.json'"
           />
         </li>
         <li className='projects__list__pro'>
           <Project
             imgProject={serie}
             title='Buscador de Series'
-            tecnologies='HTML,SASS,JS'
-            linkWeb='http://beta.adalab.es/modulo-2-evaluacion-final-mercarf/'
+            tecnologies='HTML | SASS | JS'
+            linkWeb='https://mercarf.github.io/Serie-Addict/'
             linkRepo='https://github.com/mercarf/Serie-Addict'
             altProject='imagen del proyecto Buscador de series'
+            info="Aplicación web para buscar series que nos permite guardarlas en favoritos, eliminarlas y usar el local storage para recordar tus preferencias"
           />
         </li>
         <li className='projects__list__pro'>
           <Project
             imgProject={numero}
             title='Adivina el número'
-            tecnologies='HTML,SASS,JS'
+            tecnologies='HTML | SASS | JS'
             linkWeb='https://mercarf.github.io/Adivina-el-numero/'
             linkRepo='https://github.com/mercarf/Adivina-el-numero'
             altProject='imagen del juego Adivina el número'
+            info="Juego en el que hay que adivinar un número aleatorio entre 1 y 100 con ayuda de pistas y un contador que lleva la cuenta de los intentos"
           />
         </li>
         <li className='projects__list__pro'>
           <Project
             imgProject={smile}
-            title='Adivina el número'
-            tecnologies='HTML,SASS,JS'
-            linkWeb='mercarf.github.io/smile-or-not/'
+            title='Sonríe, o no'
+            tecnologies='HTML | SASS | JS'
+            linkWeb='https://mercarf.github.io/Smile-or-not/'
             linkRepo='https://github.com/mercarf/Smile-or-not'
             altProject='imagen de Sonríe o no'
+            info="Mis inicios con JS para practicar la actualización del DOM al seleccionar un estado de ánimo"
           />
         </li>
         <li className='projects__list__pro'>
           <Project
             imgProject={anonymous}
             title='Anonymous Proxy'
-            tecnologies='HTML,CSS'
-            linkWeb='mercarf.github.io/anonymous-proxy/'
+            tecnologies='HTML | CSS'
+            linkWeb='https://mercarf.github.io/Anonymous-proxy/'
             linkRepo='https://github.com/mercarf/Anonymous-proxy'
             altProject='imagen de la pagina Anonymous proxy'
+            info="Página web desarrollada a partir de un diseño dado en Zeplin"
           />
         </li>
       </ul>
@@ -113,31 +115,34 @@ const Projects = () => {
         <li className='projects__list__pro'>
           <Project
             imgProject={zodiaco}
-            title='Gryffincode'
-            tecnologies='HTML,CSS,JS,React'
-            linkWeb='http://beta.adalab.es/project-j-module-3-team-4/#/'
-            linkRepo='https://github.com/Adalab/project-j-module-3-team-4'
+            title='Zodiac Team'
+            tecnologies='HTML | CSS | JS | React'
+            linkWeb='https://mercarf.github.io/Refactorizar-Zodiac-Team/#/'
+            linkRepo='https://github.com/mercarf/Refactorizar-Zodiac-Team'
             altProject='imagen del proyecto Gryffincode'
+            info="Proyecto de refactorización de una aplicación web con código heredado"
           />
         </li>
         <li className='projects__list__pro'>
           <Project
             imgProject={gryffincode}
             title='Gryffincode'
-            tecnologies='HTML,CSS,JS'
-            linkWeb='http://beta.adalab.es/project-promo-j-module-2-team-2-morning/'
-            linkRepo='https://github.com/Adalab/project-promo-j-module-2-team-2-morning'
+            tecnologies='HTML | CSS | JS'
+            linkWeb='https://conchaasensio.github.io/project-promo-j-module-2-team-2-morning/'
+            linkRepo='https://github.com/mercarf/Gryffincode'
             altProject='imagen del proyecto Gryffincode'
+            info="Aplicación web que permite generar tu propia tarjeta de presentación personalizada y compartirla en Twitter"
           />
         </li>
         <li className='projects__list__pro'>
           <Project
             imgProject={quinteto}
             title='Quinteto de $sudo'
-            tecnologies='HTML,CSS'
-            linkWeb='http://beta.adalab.es/project-promo-j-module-1-team-4/'
-            linkRepo='https://github.com/Adalab/project-promo-j-module-1-team-4'
+            tecnologies='HTML | CSS'
+            linkWeb='https://mercarf.github.io/Quinteto-de-sudo/'
+            linkRepo='https://github.com/mercarf/Quinteto-de-sudo'
             altProject='imagen del proyecto Quinteto de Sudo'
+            info="Página web responsive diseñada para promocionar a potenciales clientes un equipo de personas"
           />
         </li>
       </ul>

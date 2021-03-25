@@ -5,15 +5,18 @@
   color: inherit;
   padding: 0;
   margin: 0;
-  color: #444;
+  // color: #444;
+  color: #2d626c;
   font-family: 'Rubik', sans-serif;
+  font-size: 12px;
   z-index: 1;
+  scroll-behavior: smooth;
 }
 
 .App {
   text-align: center;
-  background-color: #fdf5ef;
-  padding: 0 20px;
+  background-color:#9ec0cd;
+  // padding: 0 20px;
 }
 
 /* @keyframes App-logo-spin {

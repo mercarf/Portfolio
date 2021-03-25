@@ -4,6 +4,7 @@ import Hero from './Hero/Hero';
 import AboutMe from './AboutMe/AboutMe';
 import Skills from './Skills/Skills';
 import Projects from './Projects/Projects';
+import Footer from './Footer/Footer';
 import '../stylesheets/App.scss';
 
 function App() {
@@ -16,9 +17,7 @@ function App() {
         <Skills />
         <AboutMe />
       </main>
-      <footer>
-        <p>Mercedes Carballal Copyright © 2020</p>
-      </footer>
+      <Footer />
     </div>
   );
 }

@@ -1,13 +1,46 @@
 .skills {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-top: 70px;
+  margin-bottom: 70px;
+  .skewed-skills {
+    position: absolute;
+   top: 75px;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $light-color;
+    transform-origin: top right;
+    -webkit-animation-name: none-animation;
+    animation-name: none-animation;
+    -webkit-animation-name: initial-animation;
+    animation-name: initial-animation;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    transform: skewY(10deg);
+    @include tablet {
+      top: 130px;
+    }
+    @include desktop {
+      top: 170px;
+    }
+  }
   &__title {
     margin-bottom: 30px;
     font-size: 30px;
     font-family: 'Syne Mono', monospace;
+    background-color: $secondary-color-light;
+    color: $light-color;
+    padding: 5px 20px;
+    border-radius: 20px;
     @include tablet {
       font-size: 40px;
     }
@@ -37,7 +70,10 @@
       }
 
       span {
-        color: $secondary-color-light;
+        color: $light-color;
+        @include tablet{
+          font-size: 16px;
+        }
       }
     }
     &__tools {
@@ -57,7 +93,10 @@
       }
 
       span {
-        color: $secondary-color-light;
+        color: $light-color;
+        @include tablet{
+          font-size: 16px;
+        }
       }
     }
     &__soft {
@@ -69,6 +108,11 @@
       margin: 20px auto;
       text-align: left;
 
+      @include tablet{
+          li, span, strong, em{
+          font-size:16px;
+        }
+      }
       li::before {
         content: '\2022';
         color: $primary-color;

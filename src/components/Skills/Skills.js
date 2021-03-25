@@ -5,6 +5,9 @@ import zeplin from '../../assets/images/zeplin.svg';
 const Skills = () => {
   return (
     <section className='skills' id="skills">
+      <section>
+        <div class="skewed-skills"></div>
+      </section>
       <h2 className="skills__title">Habilidades</h2>
       <div className="skills__cont">
         <div>
@@ -28,7 +31,7 @@ const Skills = () => {
             </li>
             <li>
               <i class="fab fa-js-square"></i>
-              <span className="JS">JavaScript</span> 
+              <span className="JS">JavaScript</span>
             </li>
             <li>
               <i class="fab fa-react"></i>
@@ -52,7 +55,7 @@ const Skills = () => {
               <span className="github">Github</span>
             </li>
             <li>
-              <img src={vsc} width="50px"/>
+              <img src={vsc} width="50px" />
               <span className="vsc">Visual Studio Code</span>
             </li>
             <li>
@@ -68,7 +71,7 @@ const Skills = () => {
               <span className="slack">Slack</span>
             </li>
             <li>
-              <img src={zeplin} width="60px"/>
+              <img src={zeplin} width="60px" />
               <span className="zeplin">Zeplin</span>
             </li>
           </ul>
