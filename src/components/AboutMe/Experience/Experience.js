@@ -4,7 +4,13 @@ const Experience = () => {
   return (
     <section className='experience'>
       <h2>Experiencia</h2>
-      {/* <p>Como decía, soy ingeniera, me formé como ingeniera técnica topógrafa y eso me encantó, me aportó muchísimo 
+      {/* <p>Trabajé durante unos cuantos años diseñando el despliegue de fibra óptica (FTTH). 
+      Siempre me han apasionado las tecnologías y el mundo digital y por eso he realizado cursos de delineado, 
+      diseño gráfico y el más reciente un programa de desarrollo Front End con Adalab donde me he formado para 
+      poder aportar mi inquietud y motivación en el proceso de desarrollo.
+      
+      
+      Como decía, soy ingeniera, me formé como ingeniera técnica topógrafa y eso me encantó, me aportó muchísimo 
         conocimiento sobre el terreno, estructuras, arquitectura, suelos, sistemas de informacion geográfica, y lo más 
         entretenido de todo, el trabajo de campo, medir en persona el terreno es una autentica maravilla, 
         y las tecnologías de ahora son alucinantes. 

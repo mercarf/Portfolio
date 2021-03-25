@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.48f3aa9d.chunk.css",
-    "main.js": "./static/js/main.f2e65f08.chunk.js",
-    "main.js.map": "./static/js/main.f2e65f08.chunk.js.map",
+    "main.css": "./static/css/main.85a4fa77.chunk.css",
+    "main.js": "./static/js/main.8dde579d.chunk.js",
+    "main.js.map": "./static/js/main.8dde579d.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.916853f0.js",
     "runtime-main.js.map": "./static/js/runtime-main.916853f0.js.map",
     "static/js/2.feece4fd.chunk.js": "./static/js/2.feece4fd.chunk.js",
     "static/js/2.feece4fd.chunk.js.map": "./static/js/2.feece4fd.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.21e255d518ab8adf7749bf1fbe56d3f8.js": "./precache-manifest.21e255d518ab8adf7749bf1fbe56d3f8.js",
+    "precache-manifest.335f867e4300411b41d237cac10b79af.js": "./precache-manifest.335f867e4300411b41d237cac10b79af.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.48f3aa9d.chunk.css.map": "./static/css/main.48f3aa9d.chunk.css.map",
+    "static/css/main.85a4fa77.chunk.css.map": "./static/css/main.85a4fa77.chunk.css.map",
     "static/js/2.feece4fd.chunk.js.LICENSE.txt": "./static/js/2.feece4fd.chunk.js.LICENSE.txt",
     "static/media/CV Mercedes Carballal.pdf": "./static/media/CV Mercedes Carballal.c94858c4.pdf",
     "static/media/Mercedes.jpg": "./static/media/Mercedes.4c12a6dd.jpg",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.916853f0.js",
     "static/js/2.feece4fd.chunk.js",
-    "static/css/main.48f3aa9d.chunk.css",
-    "static/js/main.f2e65f08.chunk.js"
+    "static/css/main.85a4fa77.chunk.css",
+    "static/js/main.8dde579d.chunk.js"
   ]
 }
