@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "./static/css/main.85a4fa77.chunk.css",
-    "main.js": "./static/js/main.8dde579d.chunk.js",
-    "main.js.map": "./static/js/main.8dde579d.chunk.js.map",
+    "main.js": "./static/js/main.7ef21208.chunk.js",
+    "main.js.map": "./static/js/main.7ef21208.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.916853f0.js",
     "runtime-main.js.map": "./static/js/runtime-main.916853f0.js.map",
-    "static/js/2.feece4fd.chunk.js": "./static/js/2.feece4fd.chunk.js",
-    "static/js/2.feece4fd.chunk.js.map": "./static/js/2.feece4fd.chunk.js.map",
+    "static/js/2.0625f6f4.chunk.js": "./static/js/2.0625f6f4.chunk.js",
+    "static/js/2.0625f6f4.chunk.js.map": "./static/js/2.0625f6f4.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.335f867e4300411b41d237cac10b79af.js": "./precache-manifest.335f867e4300411b41d237cac10b79af.js",
+    "precache-manifest.5637072fa0613b0fd35302823838a3ab.js": "./precache-manifest.5637072fa0613b0fd35302823838a3ab.js",
     "service-worker.js": "./service-worker.js",
     "static/css/main.85a4fa77.chunk.css.map": "./static/css/main.85a4fa77.chunk.css.map",
-    "static/js/2.feece4fd.chunk.js.LICENSE.txt": "./static/js/2.feece4fd.chunk.js.LICENSE.txt",
+    "static/js/2.0625f6f4.chunk.js.LICENSE.txt": "./static/js/2.0625f6f4.chunk.js.LICENSE.txt",
     "static/media/CV Mercedes Carballal.pdf": "./static/media/CV Mercedes Carballal.c94858c4.pdf",
     "static/media/Mercedes.jpg": "./static/media/Mercedes.4c12a6dd.jpg",
     "static/media/anonymous.PNG": "./static/media/anonymous.a99f9bef.PNG",
     "static/media/github.svg": "./static/media/github.b8ba61fe.svg",
     "static/media/gryffincode.PNG": "./static/media/gryffincode.bb93beaf.PNG",
     "static/media/js30.PNG": "./static/media/js30.dde2a55c.PNG",
+    "static/media/me.png": "./static/media/me.f56961f9.png",
     "static/media/numero.PNG": "./static/media/numero.93bf07d7.PNG",
     "static/media/pcweb.svg": "./static/media/pcweb.ba58718b.svg",
     "static/media/pokedex.PNG": "./static/media/pokedex.9b1547c7.PNG",
@@ -32,8 +33,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.916853f0.js",
-    "static/js/2.feece4fd.chunk.js",
+    "static/js/2.0625f6f4.chunk.js",
     "static/css/main.85a4fa77.chunk.css",
-    "static/js/main.8dde579d.chunk.js"
+    "static/js/main.7ef21208.chunk.js"
   ]
 }
