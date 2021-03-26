@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 
 const Header = () => {
 
@@ -22,10 +22,10 @@ const Header = () => {
   return (
     <header className='header'>
       <div className='menu'>
-        <div className='bracket-left' id='collapsible' onClick={changeMenu}>{activeMenu==='collapsible'?'->':'['}</div>
-        <nav className={`nav ${activeMenu==='collapsible'?'':'hidden'}`}>
+        <div className='bracket-left' id='collapsible' onClick={changeMenu}>{activeMenu === 'collapsible' ? '->' : '['}</div>
+        <nav className={`nav ${activeMenu === 'collapsible' ? '' : 'hidden'}`}>
           <ul className='nav-list'>
-            
+
             <li>
               <a href='#projects' title='Ir a Proyectos'>
                 Proyectos
@@ -48,7 +48,7 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-        <div className='bracket-right'id='collapsible' onClick={changeMenu}>{activeMenu==='collapsible'?'<-':']'}</div>
+        <div className='bracket-right' id='collapsible' onClick={changeMenu}>{activeMenu === 'collapsible' ? '<-' : ']'}</div>
       </div>
     </header>
   );

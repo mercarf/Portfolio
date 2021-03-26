@@ -6,7 +6,7 @@
   align-items: center;
   
   &__title {
-    margin-bottom: 30px;
+    margin: 30px 0;
     font-size: 30px;
     font-family: 'Syne Mono', monospace;
     background-color: $secondary-color-light;
@@ -29,20 +29,20 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin: auto;
+    justify-content: center;
     max-width: 300px;
     line-height: 27px;
-    justify-content: center;
-    margin-top: 30px;
+    // margin-top: 30px;
     @include tablet {
         max-width: 700px;
     }
     @include desktop {
-        max-width: 1350px;
+        max-width: 1200px;
         justify-content: space-around;
     }
     
     &__pro {
-      margin:auto;
+      margin:10px auto;
     }
   }
 }

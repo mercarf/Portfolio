@@ -58,6 +58,35 @@
       & a:hover {
         color: $light-color;
       }
+      &--item {
+        transition: color .1s ease-in;
+
+        a {
+            display: inline-block;
+
+        }
+
+        // Font Awesome icons
+        .fas,
+        .fab,
+        .far {
+            opacity: 0;
+            transition: opacity .1s ease-in;
+            color: salmon;
+        }
+
+        &:hover {
+            color: blue;
+            color: salmon;
+
+            .fas,
+            .fab,
+            .far {
+                opacity: 1;
+
+            }
+        }
+    }
     }
 
     .bracket-left,

@@ -9,5 +9,23 @@
 
   &__link {
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+      & .fontawsome {
+        width: 30px;
+        margin: auto;
+        transition: color .1s ease-in;
+        opacity: 0;
+        transition: opacity .1s ease-in;
+      }
+
+      &:hover {
+        .fontawsome {
+            opacity: 1;
+        }
+      }
+    
   }
 }
