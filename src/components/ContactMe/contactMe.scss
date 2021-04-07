@@ -1,0 +1,138 @@
+.contact {
+    padding-top: 107px;
+    background-color: $tertiary-color;
+    .thanks-container {
+        padding-bottom: 107px;
+        color: white;
+        font-size: 20px;
+    }
+}
+
+.contact-title {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.form {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 290px;
+    margin: auto;
+    padding-right: 30px;
+    ::placeholder {
+        font-size: 12px;
+        @include tablet {
+            font-size: 14px;
+        }
+    }
+    &-item {
+        width: 100%;
+        margin-bottom: 13px;
+        label {
+            color: $light-color;
+            line-height: 2;
+            font-size: 12px;
+            @include tablet {
+                font-size: 14px;
+            }
+            span {
+                color: $primary-color-light;
+            }
+            textarea {
+                padding: 15px;
+                color: $secondary-color;
+                border: 1px solid $secondary-color;
+                border-radius: 5px;
+                width: 100%;
+                &:focus {
+                    border-color: $secondary-color-light;
+                    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 10px 5px $secondary-color-light;
+                    outline: 0 none;
+                }
+                &::placeholder {
+                    color: $tertiary-color-light;
+                }
+            }
+        }
+        input {
+            display: block;
+            width: 100%;
+            margin: auto;
+            padding: 15px;
+            height: 45px;
+            border: 1px solid $secondary-color;
+            border-radius: 5px;
+            color: grey;
+            &:focus {
+                border-color: $secondary-color-light;
+                    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 10px 5px $secondary-color-light;
+                    outline: 0 none;
+            }
+            &::placeholder {
+                color: $tertiary-color-light;
+            }
+        }
+        .button-send {
+            width: 290px;
+            height: 45px;
+            background-color: $secondary-color-light;
+            color: $light-color;
+            font-weight: bold;
+            margin: 17px;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 6px 6px 10px $secondary-color;
+            cursor: pointer;
+            transition: background-color 0.5s ease;
+            &:hover {
+                background-color: $secondary-color;
+                color: $light-color;
+                box-shadow: 6px 6px 10px $secondary-color-light;
+                // border: 2px solid $secondary-color-light;
+            }
+        }
+    }
+    .error-message {
+        color: #ff9a01;
+    }
+}
+
+/* MEDIA QUERIES */
+@include tablet {
+    .form {
+        width: 442px;
+        &-item:last-of-type {
+            align-self: flex-end;
+            width: auto;
+            .button-send {
+                width: 206px;
+            }
+        }
+    }
+}
+
+@include desktop {
+    .line-item {
+        display: inline-block;
+    }
+    .mail {
+        width: 395px;
+    }
+
+    .form {
+        width: 601px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        &-item:last-of-type {
+            margin-left: auto;
+            .button-send {
+                width: 278px;
+                margin-bottom: 107px;
+            }
+        }
+    }
+}

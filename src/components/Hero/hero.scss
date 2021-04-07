@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  z-index: 999;
+  z-index: 3;
   @include desktop {
     display: flex;
     flex-direction: row;
@@ -139,18 +139,19 @@
   left: 0;
   width: 100%;
   height: 80%;
+  z-index: -1;
   background-color: $light-color;
   transform-origin: top left;
-  -webkit-animation-name: none-animation;
-  animation-name: none-animation;
-  -webkit-animation-name: initial-animation;
-  animation-name: initial-animation;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
+  // -webkit-animation-name: none-animation;
+  // animation-name: none-animation;
+  // -webkit-animation-name: initial-animation;
+  // animation-name: initial-animation;
+  // -webkit-animation-duration: 2s;
+  // animation-duration: 2s;
+  // -webkit-animation-iteration-count: 1;
+  // animation-iteration-count: 1;
+  // -webkit-animation-timing-function: ease-in-out;
+  // animation-timing-function: ease-in-out;
   transform: skewY(8deg);
   @include tablet {
     top: 35px;

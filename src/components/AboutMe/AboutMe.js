@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link, Route, Switch } from 'react-router-dom';
 import Experience from './Experience/Experience';
+import Education from './Education/Education';
 import Hobbies from './Hobbies/Hobbies';
 import myself from '../../assets/images/Mercedes.jpg';
 
@@ -18,12 +20,36 @@ const AboutMe = () => {
         Siempre me han apasionado las tecnologías y el mundo digital y por eso sigo estudiando y formándome por mi cuenta, realizando cursos y de manera autodidacta. Si te interesa saber más.. ¡sigue avanzando hacia mi experiencia y hobbies!.
         </p>
       </div>
-      <div>
+      {/* <div>
         <Experience />
+        <Education />
         <Hobbies />
-      </div>
+      </div> */}
 
-    </section>
+      <ul>
+        <li>
+          <Link to='/about/experience'>
+            <button type='button'>Experiencia</button>
+          </Link>
+        </li>
+        <li>
+          <Link to='/about/education'>
+            <button type='button'>Educacion</button>
+          </Link>
+        </li>
+        <li>
+          <Link to='/about/hobbies'>
+            <button type='button'>Aficiones</button>
+          </Link>
+        </li>
+      </ul>
+      <Switch>
+        <Route path='/about/experience' render={Experience} />
+        <Route path='/about/education' render={Education} />
+        <Route path='/about/hobbies' render={Hobbies} />
+      </Switch>
+
+    </section >
   );
 };
 

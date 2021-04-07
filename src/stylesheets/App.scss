@@ -17,13 +17,70 @@
   text-align: center;
   background-color:#9ec0cd;
   // padding: 0 20px;
+  /* .containerBG{
+    background-color:#9ec0cd;
+    // position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    .cuadrados{
+      position: absolute;
+      top:0;
+      left:0;
+      width: 100%;
+      height: 100vh;
+      z-index: 2;
+
+      li{
+        position: absolute;
+        list-style: none;
+        display: block;
+        border-radius: 10%;
+        width: 40px;
+        height: 40px;
+        background-color: #955e83;
+        top: -80px;
+        -webkit-animation: animacionCuadrados 25s infinite;
+        animation: animacionCuadrados 25s infinite;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+
+        &:nth-child(1){
+          left:10%;
+        }
+        &:nth-child(2){
+          left:20%;
+          width: 80px;
+          height: 80px;
+          animation-delay: 2s;
+          animation-duration: 17s;
+        }
+        &:nth-child(3){
+          left:25%;
+          animation-delay: 4s;
+        }
+        &:nth-child(4){
+          left:40%;
+          width: 60px;
+          height: 60px;
+          animation-duration: 22s;
+          background-color: #cfb8c3;
+        }
+      }
+    }
+  } */
 }
 
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* @keyframes animacionCuadrados{
+  0% {
+    transform: translateY(0);
+    opacity: 0.8;
   }
-  to {
-    transform: rotate(360deg);
+  100%{
+    transform: translateY(100vh) rotate(600deg);
+    opacity: 0;
   }
 } */
