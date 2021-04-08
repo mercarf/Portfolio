@@ -16,11 +16,11 @@
     }
   }
   &__imgCont {
-    width: 250px;
+    width: 150px;
     margin-bottom: 20px;
     // background-image: ;
     @include tablet {
-      width: 350px;
+      width: 250px;
     }
     &__img {
       width: 100%;
@@ -49,25 +49,27 @@
   justify-content: space-evenly;
   margin: 50px 0;
 
-  .Link{
-    border: none;
-    padding: 3px 5px;
-    background-color: $secondary-color-light;
-    border-radius: 4px;
-    color: $light-color;
-    transition: all .5s ease;
-    outline: none;
-    &:hover {
-      cursor: pointer;
-      background-color: $primary-color;
-      color: white;
-    }
-    &:focus {
+    .Link{
+      border: none;
+      padding: 3px 5px;
+      background-color: $secondary-color-light;
+      border-radius: 4px;
+      color: $light-color;
+      transition: all .5s ease;
       outline: none;
-      color: $primary-color-light;
-      background-color: $primary-color;
+      &:hover {
+        cursor: pointer;
+        background-color: $primary-color;
+        color: white;
+      }
+      &:focus {
+        outline: none;
+        color: $primary-color-light;
+        background-color: $primary-color;
+      }
     }
   }
-}
-
+  .hidden{
+    display: none;
+  }
 }

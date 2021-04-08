@@ -1,4 +1,4 @@
-.contact {
+.contactMe {
     padding-top: 60px;
     background-color: $tertiary-color;
     .thanks-container {
@@ -29,7 +29,6 @@
     align-items: center;
     width: 290px;
     margin: auto;
-    padding-right: 30px;
     ::placeholder {
         font-size: 12px;
         @include tablet {
@@ -89,12 +88,13 @@
             background-color: $secondary-color-light;
             color: $light-color;
             font-weight: bold;
-            margin: 17px;
+            margin: 17px 0;
             border: none;
             border-radius: 5px;
             box-shadow: 6px 6px 10px $secondary-color;
             cursor: pointer;
             transition: background-color 0.5s ease;
+            outline: none;
             &:hover {
                 background-color: $secondary-color;
                 color: $light-color;

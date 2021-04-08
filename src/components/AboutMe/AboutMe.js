@@ -20,12 +20,6 @@ const AboutMe = () => {
         Siempre me han apasionado las tecnologías y el mundo digital y por eso sigo estudiando y formándome por mi cuenta, realizando cursos y de manera autodidacta. Si te interesa saber más.. ¡sigue avanzando hacia mi experiencia y hobbies!.
         </p>
       </div>
-      {/* <div>
-        <Experience />
-        <Education />
-        <Hobbies />
-      </div> */}
-
 
       <ul className="aboutMe__menu">
         <li>
@@ -40,7 +34,7 @@ const AboutMe = () => {
       </ul>
       <Route
         exact
-        path='/aboutMe'
+        path='/'
         render={() => (<Hobbies />)} />
       <Switch>
         <Route path='/aboutMe/hobbies' render={Hobbies} />

@@ -36,7 +36,7 @@ const ContactMe = () => {
                 const queryString = Object.keys(values).map(key => key + '=' + values[key]).join('&');
                 submitForm();
                 fetch('https://formspree.io/xqkybken', {
-                    method: 'POST',
+                    // method: 'POST',
                     headers: {
                         'Content-Type': 'application/x-www-form-urlencoded',
                     },
@@ -69,8 +69,8 @@ const ContactMe = () => {
         return errors;
     }
     return (
-        <div className="contact" id="contactMe">
-            <h2 className="contact__title">Contacta conmigo</h2>
+        <div className="contactMe" id="contactMe">
+            <h2 className="contactMe__title">Contacta conmigo</h2>
             <form className="form">
                 <div className="form-item">
                     <label htmlFor="fullname"

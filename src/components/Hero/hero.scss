@@ -87,6 +87,7 @@
       font-size: 30px;
       margin: 0px;
       // height: 60px;
+      text-align: left;
 
       @media all and (min-width: 768px) {
         font-size: 60px;
@@ -137,7 +138,7 @@
 }
 .skewed-hero {
   position: absolute;
-  top: 45px;
+  top: 100px;
   right: 0;
   left: 0;
   width: 100%;
@@ -155,8 +156,8 @@
   // animation-iteration-count: 1;
   // -webkit-animation-timing-function: ease-in-out;
   // animation-timing-function: ease-in-out;
-  transform: skewY(8deg);
+  transform: skewY(-8deg);
   @include tablet {
-    top: 35px;
+    top: 200px;
   }
 }
