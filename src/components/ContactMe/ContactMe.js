@@ -69,7 +69,8 @@ const ContactMe = () => {
         return errors;
     }
     return (
-        <div className="contact">
+        <div className="contact" id="contactMe">
+            <h2 className="contact__title">Contacta conmigo</h2>
             <form className="form">
                 <div className="form-item">
                     <label htmlFor="fullname"

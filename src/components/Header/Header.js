@@ -42,7 +42,7 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a href='#' title='Ir a Contacto'>
+              <a href='#contactMe' title='Ir a Contacto'>
                 Contacto
               </a>
             </li>

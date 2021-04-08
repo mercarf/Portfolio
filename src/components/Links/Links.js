@@ -16,7 +16,7 @@ const Links = ({ fontawsome }) => {
     <ul className="links">
       <li className="links__link">
         <Link name="CV" link={cv} download />
-        <FontAwesomeIcon class="fontawsome" icon={['far', 'file-pdf']} size='lg'></FontAwesomeIcon>
+        <FontAwesomeIcon className="fontawsome" icon={['far', 'file-pdf']} size='lg'></FontAwesomeIcon>
       </li>
       <li className="links__link">
         <Link
@@ -24,7 +24,7 @@ const Links = ({ fontawsome }) => {
           link="https://github.com/mercarf"
           otherClass="socialNet"
         />
-        <FontAwesomeIcon class="fontawsome" icon={['fab', 'github']} size='lg'></FontAwesomeIcon>
+        <FontAwesomeIcon className="fontawsome" icon={['fab', 'github']} size='lg'></FontAwesomeIcon>
       </li>
       <li className="links__link">
         <Link
@@ -32,7 +32,7 @@ const Links = ({ fontawsome }) => {
           link="https://www.linkedin.com/in/mercedescarballal/"
           otherClass="socialNet"
         />
-        <FontAwesomeIcon class="fontawsome" icon={['fab', 'linkedin']} size='lg'></FontAwesomeIcon>
+        <FontAwesomeIcon className="fontawsome" icon={['fab', 'linkedin']} size='lg'></FontAwesomeIcon>
       </li>
       <li className="links__link">
         <Link
@@ -40,7 +40,7 @@ const Links = ({ fontawsome }) => {
           link="https://twitter.com/mercarfr"
           otherClass="socialNet"
         />
-        <FontAwesomeIcon class="fontawsome" icon={['fab', 'twitter-square']} size='lg'></FontAwesomeIcon>
+        <FontAwesomeIcon className="fontawsome" icon={['fab', 'twitter-square']} size='lg'></FontAwesomeIcon>
       </li>
     </ul>
   );

@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <section className='skills' id="skills">
       <section>
-        <div class="skewed-skills"></div>
+        <div className="skewed-skills"></div>
       </section>
       <h2 className="skills__title">Habilidades</h2>
       <div className="skills__cont">
@@ -14,35 +14,35 @@ const Skills = () => {
           <h3>Tecnologías</h3>
           <ul className="skills__cont__tecnologies">
             <li >
-              <i class="fab fa-html5"></i>
+              <i className="fab fa-html5"></i>
               <span className="HTML">HTML 5</span>
             </li>
             <li >
-              <i class="fab fa-css3-alt"></i>
+              <i className="fab fa-css3-alt"></i>
               <span className="CSS">CSS</span>
             </li>
             <li >
-              <i class="fab fa-sass"></i>
+              <i className="fab fa-sass"></i>
               <span className="SASS">SASS</span>
             </li>
             <li>
-              <i class="fab fa-bootstrap"></i>
+              <i className="fab fa-bootstrap"></i>
               <span className="Boostrap">Boostrap</span>
             </li>
             <li>
-              <i class="fab fa-js-square"></i>
+              <i className="fab fa-js-square"></i>
               <span className="JS">JavaScript</span>
             </li>
             <li>
-              <i class="fab fa-react"></i>
+              <i className="fab fa-react"></i>
               <span className="React">React</span>
             </li>
             <li>
-              <i class="fab fa-git-alt"></i>
+              <i className="fab fa-git-alt"></i>
               <span className="Git">Git</span>
             </li>
             <li>
-              <i class="fab fa-gulp"></i>
+              <i className="fab fa-gulp"></i>
               <span className="Gulp">Gulp</span>
             </li>
           </ul>
@@ -51,7 +51,7 @@ const Skills = () => {
           <h3>Herramientas</h3>
           <ul className="skills__cont__tools">
             <li>
-              <i class="fab fa-github"></i>
+              <i className="fab fa-github"></i>
               <span className="github">Github</span>
             </li>
             <li>
@@ -59,15 +59,15 @@ const Skills = () => {
               <span className="vsc">Visual Studio Code</span>
             </li>
             <li>
-              <i class="fab fa-npm"></i>
+              <i className="fab fa-npm"></i>
               <span className="npm">Npm</span>
             </li>
             <li>
-              <i class="fab fa-trello"></i>
+              <i className="fab fa-trello"></i>
               <span className="trello">Trello </span>
             </li>
             <li>
-              <i class="fab fa-slack"></i>
+              <i className="fab fa-slack"></i>
               <span className="slack">Slack</span>
             </li>
             <li>

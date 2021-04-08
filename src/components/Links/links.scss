@@ -13,12 +13,18 @@
     flex-direction: column;
     justify-content: flex-start;
 
-      & .fontawsome {
+      & .fontawsome, {
         width: 30px;
         margin: auto;
         transition: color .1s ease-in;
         opacity: 0;
         transition: opacity .1s ease-in;
+        @include tablet{
+          height: 30px;
+        }
+        @include desktop{
+          height: 40px;
+        }
       }
 
       &:hover {

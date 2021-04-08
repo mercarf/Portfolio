@@ -80,6 +80,9 @@
     }
   }
   &__container {
+    @include desktop{
+      padding-top: 60px;
+    }
     &__title {
       font-size: 30px;
       margin: 0px;

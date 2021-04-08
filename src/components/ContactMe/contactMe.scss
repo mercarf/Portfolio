@@ -1,17 +1,25 @@
 .contact {
-    padding-top: 107px;
+    padding-top: 60px;
     background-color: $tertiary-color;
     .thanks-container {
         padding-bottom: 107px;
         color: white;
         font-size: 20px;
     }
-}
-
-.contact-title {
-    margin-top: 30px;
-    margin-bottom: 15px;
-    color: white;
+    &__title {
+        margin-bottom: 60px;
+        font-size: 30px;
+        font-family: 'Syne Mono', monospace;
+        background-color: $secondary-color-light;
+        color: $light-color;
+        padding: 5px 20px;
+        border-radius: 20px;
+        width: fit-content;
+        margin: 0px auto 60px auto;
+        @include tablet {
+          font-size: 40px;
+        }
+      }
 }
 
 .form {

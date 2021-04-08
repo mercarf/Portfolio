@@ -42,4 +42,32 @@
       }
     }
   }
+  &__menu{
+    flex-basis: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px 0;
+
+  .Link{
+    border: none;
+    padding: 3px 5px;
+    background-color: $secondary-color-light;
+    border-radius: 4px;
+    color: $light-color;
+    transition: all .5s ease;
+    outline: none;
+    &:hover {
+      cursor: pointer;
+      background-color: $primary-color;
+      color: white;
+    }
+    &:focus {
+      outline: none;
+      color: $primary-color-light;
+      background-color: $primary-color;
+    }
+  }
+}
+
 }

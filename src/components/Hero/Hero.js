@@ -28,7 +28,7 @@ const Hero = () => {
   return (
     <section className='hero' id="hero">
       <section>
-        <div class="skewed-hero"></div>
+        <div className="skewed-hero"></div>
       </section>
       <div className="hero__imgCont">
         <div className="hero__imgCont__img">

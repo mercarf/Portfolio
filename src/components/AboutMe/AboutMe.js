@@ -26,27 +26,27 @@ const AboutMe = () => {
         <Hobbies />
       </div> */}
 
-      <ul>
+
+      <ul className="aboutMe__menu">
         <li>
-          <Link to='/about/experience'>
-            <button type='button'>Experiencia</button>
-          </Link>
+          <Link to='/aboutMe/hobbies' className="Link">Aficiones</Link>
         </li>
         <li>
-          <Link to='/about/education'>
-            <button type='button'>Educacion</button>
-          </Link>
+          <Link to='/aboutMe/experience' className="Link">Experiencia</Link>
         </li>
         <li>
-          <Link to='/about/hobbies'>
-            <button type='button'>Aficiones</button>
-          </Link>
+          <Link to='/aboutMe/education' className="Link">Educación</Link>
         </li>
       </ul>
+      <Route
+        exact
+        path='/aboutMe'
+        render={() => (<Hobbies />)} />
       <Switch>
-        <Route path='/about/experience' render={Experience} />
-        <Route path='/about/education' render={Education} />
-        <Route path='/about/hobbies' render={Hobbies} />
+        <Route path='/aboutMe/hobbies' render={Hobbies} />
+        <Route path='/aboutMe/experience' render={Experience} />
+        <Route path='/aboutMe/education' render={Education} />
+
       </Switch>
 
     </section >
