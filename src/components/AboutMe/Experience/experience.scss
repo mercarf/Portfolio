@@ -1,3 +1,174 @@
+.experience{
+  
+  &__title{
+    font-size: 16px;
+    width: 100px;
+    margin: 30px auto;
+    border-bottom: double;
+  }
+  &__container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 30px;
+    text-align: left;
+    
+    &__box{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      background-color: rgba(243, 232, 234,0.8);
+      max-width: 700px;
+      margin:0 auto 30px auto;
+      padding: 30px;
+      border: 1px solid $secondary-color;
+      border-radius: 5px;
+      transition: background-color .5s ease;
+      &:hover{
+        // background-color: rgba(243, 232, 234,0.6);
+        background-color: rgba(45, 98, 108,0.6);
+        border: none;
+        box-shadow: 5px 5px 10px 5px $secondary-color;
+        .experience__container__box__data{
+          color: $primary-color-light;
+        }
+        .experience__container__box__company{
+          color: $primary-color-light;
+          strong{
+            color: $light-color;
+          }
+        }
+        .experience__container__box__place{
+          color: $primary-color-light;
+        }
+        .experience__container__box__objList li{
+          color: $light-color;
+        }
+        .experience__container__box__skills__box1 span,.experience__container__box__skills__box2 span{
+          color: $light-color;
+        }
+      }
+
+      &__data{
+        margin-right: auto;
+        color: $secondary-color-light;
+        border-bottom: 1px solid;
+      }
+
+      &__company{
+        margin: 10px 0 0 auto;
+        text-align: right;
+        letter-spacing: 01px;
+        strong{
+          color: $secondary-color-light;
+        }
+      }
+      &__place{
+        margin: 10px 0 0 auto;
+        color: $secondary-color-light;
+      }
+
+      &__objList{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin: 10px 0;
+        padding-left: 30px;
+        li{
+          list-style-type: disc;
+          margin-bottom: 15px;
+
+          &:last-child{
+            margin-bottom: 0;
+          }
+        }
+      }
+      &__skills{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 20px;
+        padding: 0 30px;
+
+        &__box1{
+          text-align: center;
+          
+          span{
+            margin-bottom: 10px;
+          }
+
+          &__techList{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-top: 20px;
+            margin: auto;
+            max-width: 400px;
+            align-items: center;
+  
+            li{
+              font-size: 12px;
+              // background-color: mediumpurple;
+              background-color: mediumslateblue;
+              color: #fff;
+              padding: 3px 6px;
+              border-radius: 10px;
+              margin: 5px 3px;
+              transition: all .5s ease;
+              @include tablet {
+                margin: 10px 5px;
+              }
+              &:hover {
+                background-color: rgba(55, 194, 180, 0.774);
+                transform: scale(1.05);
+              }
+            }
+          }
+        }
+
+        &__box2{
+          text-align: center;
+
+          &__skillsList{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-top: 20px;
+            margin: auto;
+            max-width: 400px;
+            align-items: center;
+  
+            li{
+              font-size: 12px;
+              background-color: #884fd3;
+              color: #fff;
+              padding: 3px 6px;
+              border-radius: 10px;
+              margin: 5px 3px;
+              transition: all .5s ease;
+              @include tablet {
+                margin: 10px 5px;
+              }
+              &:hover {
+                background-color: rgba(55, 194, 180, 0.774);
+                transform: scale(1.05);
+              }
+            }
+          }
+        }
+      }
+
+      
+
+    }
+  }
+}
+
+
 .fontawsome {
     width: 30px;
     margin: auto;

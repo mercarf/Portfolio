@@ -46,24 +46,29 @@
                     align-items: center;
                     justify-content: flex-start;
                     padding: 5px 10px;
-                    @include tablet{
-                        font-size: 16px;
-                    }
                     li{
                         margin: 10px;
+                        @include tablet{
+                            font-size: 14px;
+                        }
                     }
                 }
             }
 
             & .box-hover{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
                 background-color: rgba(45, 98, 108,0.9);
                 position: relative;
-                display: none;
+                // display: none;
+                opacity: 0;
                 width: 250px;
-                height: 335px;
-                top: -289px;
+                height: 350px;
+                top: -300px;
                 z-index: 1;
                 padding: 30px 20px;
+                
 
                 &__text{
                     color: $light-color;
@@ -73,15 +78,17 @@
                     span{
                         font-size: 16px;
                         color: $primary-color-light;
+                        @include tablet{
+                            font-size: 16px;
+                        }
                     }
                 }
             }
 
             &:hover{
                 .box-hover{
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-around;
+                    opacity: 1;
+                    transition: opacity 0.3s ease-in-out;
                 }
             }
 

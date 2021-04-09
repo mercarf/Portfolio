@@ -12,6 +12,11 @@
   z-index: 1;
   scroll-behavior: smooth;
 }
+@media all and (min-width:768px) {
+  * {
+    font-size: 16px;
+  }
+}
 
 .App {
   text-align: center;
