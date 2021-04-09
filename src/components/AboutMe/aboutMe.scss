@@ -43,11 +43,12 @@
     }
   }
   &__menu{
-    flex-basis: 100%;
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
+  width: 500px;
   margin: 50px 0;
+  
 
     .Link{
       border: none;
@@ -57,6 +58,9 @@
       color: $light-color;
       transition: all .5s ease;
       outline: none;
+      @include tablet{
+        font-size: 16px;
+      }
       &:hover {
         cursor: pointer;
         background-color: $primary-color;

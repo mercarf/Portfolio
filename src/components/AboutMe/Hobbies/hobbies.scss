@@ -1,0 +1,90 @@
+.hobbies{
+    &__title{
+        font-size: 16px;
+        width: 100px;
+        margin: 30px auto;
+        border-bottom: double;
+    }
+    &__container{
+        display: grid;
+        grid-gap: 30px;
+        margin-bottom: 60px;
+        justify-items: center;
+        @include tablet{
+            grid-template-columns: repeat(3,250px) ;
+        }
+        @include desktop{
+            grid-template-columns: repeat(5,250px) ;
+        }
+        &__box{
+            width: 250px;
+            height: 330px;
+            border-radius: 10px;
+            // margin: 20px 0;
+            background-color: $light-color; 
+            box-shadow: 5px 5px 15px 5px $secondary-color;
+            overflow: hidden;
+
+            &__img{
+                img{
+                    object-fit: cover;
+                    width: 100%;
+                    height: 180px;
+                }
+            }
+
+            &__title{
+                margin-top: 10px;
+                @include tablet{
+                    font-size: 16px;
+                }
+
+                &__list{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: flex-start;
+                    padding: 5px 10px;
+                    @include tablet{
+                        font-size: 16px;
+                    }
+                    li{
+                        margin: 10px;
+                    }
+                }
+            }
+
+            & .box-hover{
+                background-color: rgba(45, 98, 108,0.9);
+                position: relative;
+                display: none;
+                width: 250px;
+                height: 335px;
+                top: -289px;
+                z-index: 1;
+                padding: 30px 20px;
+
+                &__text{
+                    color: $light-color;
+                    @include tablet{
+                        font-size: 16px;
+                    }
+                    span{
+                        font-size: 16px;
+                        color: $primary-color-light;
+                    }
+                }
+            }
+
+            &:hover{
+                .box-hover{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                }
+            }
+
+        }
+    }
+}
