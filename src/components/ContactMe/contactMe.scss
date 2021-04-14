@@ -1,10 +1,24 @@
 .contactMe {
     padding-top: 60px;
     background-color: $tertiary-color;
-    .thanks-container {
-        padding-bottom: 107px;
-        color: white;
-        font-size: 20px;
+    .thanks {
+        padding-bottom: 100px;
+        color: $light-color;
+        
+        &__title{
+            color: $light-color;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+            @include tablet{
+                font-size: 20px;
+            }
+        }
+        &__sentence{
+            color: $light-color;
+            @include tablet{
+                font-size: 20px;
+            }
+        }
     }
     &__title {
         margin-bottom: 60px;

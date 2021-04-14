@@ -10,32 +10,32 @@ const AboutMe = () => {
   return (
     <section className='aboutMe' id="aboutMe">
       <h2 className="aboutMe__title">Sobre mí</h2>
-      <div className="aboutMe__imgCont">
-        <img className="aboutMe__imgCont__img" src={myself} width="200px" />
-      </div>
-      <div className="aboutMe__textCont">
-        <p className="aboutMe__textCont__text">Mi nombre es <strong>Mercedes</strong> y soy <strong>desarrolladora Front End</strong>.
-        Hace unos años me formé como <strong>ingeniera técnica topógrafa</strong>.
-        Trabajé durante unos cuantos años <strong>diseñando</strong> el despliegue de fibra óptica <strong>(FTTH)</strong> para diversas compañías de ámbito nacional e internacional.
-        Siempre me han apasionado las tecnologías y el mundo digital y por eso sigo estudiando y formándome por mi cuenta, realizando cursos y de manera autodidacta. Si te interesa saber más.. ¡sigue avanzando hacia mi experiencia y hobbies!.
-        </p>
+      <div className="aboutMe__desc">
+        <div className="aboutMe__desc__imgCont">
+          <img className="aboutMe__desc__imgCont__img" src={myself} width="200px" />
+        </div>
+        <div className="aboutMe__desc__contentText">
+          <p className="aboutMe__desc__contentText__text">Soy muy <strong>alegre, positiva y empática</strong>, habituada a <strong>trabajar en equipo</strong> y
+          crear un buen ambiente de confianza. Me <strong>adapto</strong> muy bien a los cambios y, como buena ingeniera, también soy muy concienzuda,
+          <strong> organizada</strong> y perfeccionista en todo lo que hago. Una persona <strong>perseverante</strong> y con <strong>motivación</strong> que
+          le gusta <strong>resolver problemas</strong> y afrontar nuevos retos, y por eso mismo me encanta <strong>aprender cosas nuevas</strong> y aplicarlas
+          para obtener mejores resultados.
+          </p>
+          <p className="aboutMe__desc__contentText__text">Si quieres saber más sobre mí pincha en los link de aquí abajo 😊</p>
+        </div>
       </div>
 
       <ul className="aboutMe__menu">
         <li>
-          <Link to='/aboutMe/hobbies' className="Link">Aficiones</Link>
+          <Link to='/aboutMe/experience' className="Link">Experiencia</Link>
         </li>
         <li>
-          <Link to='/aboutMe/experience' className="Link">Experiencia</Link>
+          <Link to='/aboutMe/hobbies' className="Link">Aficiones</Link>
         </li>
         <li>
           <Link to='/aboutMe/education' className="Link">Educación</Link>
         </li>
       </ul>
-      <Route
-        exact
-        path='/'
-        render={() => (<Hobbies />)} />
       <Switch>
         <Route path='/aboutMe/hobbies' render={Hobbies} />
         <Route path='/aboutMe/experience' render={Experience} />

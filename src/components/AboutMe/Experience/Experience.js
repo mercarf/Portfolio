@@ -51,14 +51,19 @@ const Experience = () => {
             <li>Manejo de Slack, GitHub, GitHub projects, VSCode, Gulp, Terminal, Linter, Zeplin.</li>
             <li>Experiencia en planificación y ejecución de proyectos bajo el marco de trabajo Scrum.</li>
           </ul>
-          <ul className="experience__container__box">
-            <li>Filosofía ágil</li>
-            <li>Marcos de trabajo Scrum</li>
-            <li>Pair Programing</li>
-            <li>Comunicación</li>
-            <li>Organización</li>
-            <li>Optimización de recursos</li>
-          </ul>
+          <div className="experience__container__box__skills">
+            <div className="experience__container__box__skills__box2">
+              <span>Habilidades</span>
+              <ul className="experience__container__box__skills__box2__skillsList">
+                <li>Filosofía ágil</li>
+                <li>Marcos de trabajo Scrum</li>
+                <li>Pair Programing</li>
+                <li>Comunicación</li>
+                <li>Organización</li>
+                <li>Optimización de recursos</li>
+              </ul>
+            </div>
+          </div>
         </div>
         <div className="experience__container__box">
           <span className="experience__container__box__data">2018-2020</span>
@@ -68,18 +73,26 @@ const Experience = () => {
             <li>Creación y unificación de la base de datos GIS-PNI de la red de fibra óptica y canalización de Cataluña y Madrid en soporte Smallworld</li>
             <li>Auditoría de rutas de conexión de la red de fibra óptica de la ciudad de Barcelona y Madrid.</li>
           </ul>
-          <ul>
-            <li>Conocimiento</li>
-            <li>Responsabilidad</li>
-            <li>Comunicación</li>
-            <li>Organización</li>
-          </ul>
-          <ul>
-            <li>AutoCAD</li>
-            <li>Microstation</li>
-            <li>Smallworld</li>
-            <li>ArcGis</li>
-          </ul>
+          <div className="experience__container__box__skills">
+            <div className="experience__container__box__skills__box1">
+              <span>Tecnologías</span>
+              <ul className="experience__container__box__skills__box1__techList">
+                <li>AutoCAD</li>
+                <li>Microstation</li>
+                <li>Smallworld</li>
+                <li>ArcGis</li>
+              </ul>
+            </div>
+            <div className="experience__container__box__skills__box2">
+              <span>Habilidades</span>
+              <ul className="experience__container__box__skills__box2__skillsList">
+                <li>Conocimiento</li>
+                <li>Responsabilidad</li>
+                <li>Comunicación</li>
+                <li>Organización</li>
+              </ul>
+            </div>
+          </div>
         </div>
         <div className="experience__container__box">
           <span className="experience__container__box__data">2013-2018</span>
@@ -93,19 +106,27 @@ const Experience = () => {
             <li>Solicitud de SUC's.</li>
             <li>Rediseños basados en la información, propuesta y alternativas efectuadas por los equipos de Ingenieria de Campo</li>
           </ul>
-          <ul>
-            <li>Toma de decisiones</li>
-            <li>Trabajo en equipo</li>
-            <li>Responsabilidad</li>
-            <li>Comunicación</li>
-            <li>Organización</li>
-          </ul>
-          <ul>
-            <li>AutoCad</li>
-            <li>SmallWorld</li>
-            <li>Netplan</li>
-            <li>ArcGis</li>
-          </ul>
+          <div className="experience__container__box__skills">
+            <div className="experience__container__box__skills__box1">
+              <span>Tecnologías</span>
+              <ul className="experience__container__box__skills__box1__techList">
+                <li>AutoCad</li>
+                <li>SmallWorld</li>
+                <li>Netplan</li>
+                <li>ArcGis</li>
+              </ul>
+            </div>
+            <div className="experience__container__box__skills__box2">
+              <span>Habilidades</span>
+              <ul className="experience__container__box__skills__box2__skillsList">
+                <li>Toma de decisiones</li>
+                <li>Trabajo en equipo</li>
+                <li>Responsabilidad</li>
+                <li>Comunicación</li>
+                <li>Organización</li>
+              </ul>
+            </div>
+          </div>
         </div>
         <div className="experience__container__box">
           <span className="experience__container__box__data">2013</span>
@@ -120,18 +141,26 @@ const Experience = () => {
             <li>Diseño cartográfico</li>
             <li>Gestión de costes e impacto ambiental</li>
           </ul>
-          <ul>
-            <li>Conocimiento</li>
-            <li>Responsabilidad</li>
-            <li>Comunicación</li>
-            <li>Organización</li>
-          </ul>
-          <ul>
-            <li>AutoCAD</li>
-            <li>Microstation</li>
-            <li>GvSig</li>
-            <li>Trimble</li>
-          </ul>
+          <div className="experience__container__box__skills">
+            <div className="experience__container__box__skills__box1">
+              <span>Tecnologías</span>
+              <ul className="experience__container__box__skills__box1__techList">
+                <li>AutoCAD</li>
+                <li>Microstation</li>
+                <li>GvSig</li>
+                <li>Trimble</li>
+              </ul>
+            </div>
+            <div className="experience__container__box__skills__box2">
+              <span>Habilidades</span>
+              <ul className="experience__container__box__skills__box2__skillsList">
+                <li>Conocimiento</li>
+                <li>Responsabilidad</li>
+                <li>Comunicación</li>
+                <li>Organización</li>
+              </ul>
+            </div>
+          </div>
         </div>
         <div className="experience__container__box">
           <span className="experience__container__box__data">2007-2011</span>
@@ -141,14 +170,19 @@ const Experience = () => {
             <li>Catequista de postcomunion y confirmación, niños de 11 a 17 años</li>
             <li>Monitora de verano en campamentos de 15 días de pequeños(8-10años), medianos(11-14años) y mayores(15-17años) </li>
           </ul>
-          <ul>
-            <li>Imprivisación</li>
-            <li>Creatividad</li>
-            <li>Responsabilidad</li>
-            <li>Comunicación</li>
-            <li>Organización</li>
-            <li>Paciencia</li>
-          </ul>
+          <div className="experience__container__box__skills">
+            <div className="experience__container__box__skills__box2">
+              <span>Habilidades</span>
+              <ul className="experience__container__box__skills__box2__skillsList">
+                <li>Imprivisación</li>
+                <li>Creatividad</li>
+                <li>Responsabilidad</li>
+                <li>Comunicación</li>
+                <li>Organización</li>
+                <li>Paciencia</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </section>
