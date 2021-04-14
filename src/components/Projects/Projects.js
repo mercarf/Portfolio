@@ -26,7 +26,7 @@ const Projects = () => {
             imgProject={portfolio}
             title='Portfolio'
             tecnologies='HTML | SASS | JS | React'
-            linkWeb='mercarf.github.io/portfolio/'
+            linkWeb='mercarf.github.io/Portfolio/#/'
             linkRepo='https://github.com/mercarf/Portfolio'
             altProject='imagen del Portfolio'
             info="Página web que estás viendo ahora mismo"

@@ -11,7 +11,7 @@ library.add(fab);
 library.add(fas);
 library.add(far);
 
-const Links = ({ fontawsome }) => {
+const Links = () => {
   return (
     <ul className="links">
       <li className="links__link">

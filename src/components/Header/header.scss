@@ -10,7 +10,9 @@
 
   .menu {
     background-color: rgba(158, 192, 205,0.8);
-    border-radius: 10px;
+    // border-radius: 10px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
     min-height: 30px;
     display: flex;
     justify-content: center;

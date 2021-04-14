@@ -33,7 +33,52 @@
         @include tablet {
           font-size: 40px;
         }
-      }
+    }
+    &__text{
+        color: $light-color;
+        width: 300px;
+        margin:auto;
+        text-align:justify;
+        margin-bottom: 20px;
+        strong{
+        color: #f662d1;
+        letter-spacing: 1.5px;
+        }
+        @include tablet {
+            font-size: 16px;
+            width: 550px;
+        }
+    }
+    &__info{
+        &__text{   
+            color: #f662d1;
+            margin-bottom: 20px;
+        }
+        &__email{
+            margin-bottom: 30px;
+            &__link{
+                color: $light-color;
+                &:hover{
+                    color: $primary-color-light;
+                }
+            }
+        }
+        &__links{
+            margin-bottom: 30px;
+            &__social .fab{
+                color: $light-color;
+                font-size: 20px;
+                margin-right: 20px;
+
+                @include tablet{
+                    font-size: 30px;
+                }
+                &:hover{
+                    color: $primary-color-light;
+                }
+            }
+        }
+    }
 }
 
 .form {
@@ -118,7 +163,7 @@
         }
     }
     .error-message {
-        color: #ff9a01;
+        color: $primary-color-light;
     }
 }
 
