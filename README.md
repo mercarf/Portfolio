@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Soy Mercedes Carballal👩🏻‍💻, ¡Bienvenido!👋🏻
 
-[<img align="left" src="/Portfolio/src/assets/images/Video portfolio (3).gif" width="600px">][website]
+[<img align="left" src="https://github.com/mercarf/Portfolio/blob/master/public/VideoPortfolio.gif" width="600px">][website]
 
 
 [website]: https://mercarf.github.io/Portfolio/#/
