@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from '../Link/Link';
-import cv from '../../assets/documents/CV-ES Mercedes Carballal.pdf';
+import cv from '../../assets/documents/CV-23 Mercedes Carballal.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
