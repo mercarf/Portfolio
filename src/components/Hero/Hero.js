@@ -32,7 +32,7 @@ const Hero = () => {
       </section>
       <div className="hero__imgCont">
         <div className="hero__imgCont__img">
-          <img src={mySelf} />
+          <img src={mySelf} alt='Imagen dibujo sobre mi' />
         </div>
         <a href="#aboutMe" className="hero__imgCont__info">+ info</a>
       </div>

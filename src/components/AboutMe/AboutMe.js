@@ -12,16 +12,16 @@ const AboutMe = () => {
       <h2 className="aboutMe__title">Sobre mí</h2>
       <div className="aboutMe__desc">
         <div className="aboutMe__desc__imgCont">
-          <img className="aboutMe__desc__imgCont__img" src={myself} width="200px" />
+          <img className="aboutMe__desc__imgCont__img" src={myself} width="200px" alt='Imagen de Mercedes Carballal' />
         </div>
         <div className="aboutMe__desc__contentText">
           <p className="aboutMe__desc__contentText__text">Soy muy <strong>alegre, positiva y empática</strong>, habituada a <strong>trabajar en equipo</strong> y
-          crear un buen ambiente de confianza. Me <strong>adapto</strong> muy bien a los cambios y, como buena ingeniera, también soy muy concienzuda,
-          <strong> organizada</strong> y perfeccionista en todo lo que hago. Una persona <strong>perseverante</strong> y con <strong>motivación</strong> que
-          le gusta <strong>resolver problemas</strong> y afrontar nuevos retos, y por eso mismo me encanta <strong>aprender cosas nuevas</strong> y aplicarlas
-          para obtener mejores resultados.
+            crear un buen ambiente de confianza. Me <strong>adapto</strong> muy bien a los cambios y, como buena ingeniera, también soy muy concienzuda,
+            <strong> organizada</strong> y perfeccionista en todo lo que hago. Una persona <strong>perseverante</strong> y con <strong>motivación</strong> que
+            le gusta <strong>resolver problemas</strong> y afrontar nuevos retos, y por eso mismo me encanta <strong>aprender cosas nuevas</strong> y aplicarlas
+            para obtener mejores resultados.
           </p>
-          <p className="aboutMe__desc__contentText__text">Si quieres saber más sobre mí pincha en los link de aquí abajo 😊</p>
+          <p className="aboutMe__desc__contentText__text">Si quieres saber más sobre mí pincha en los link de aquí abajo <span role="img" aria-label="Smily">😊</span></p>
         </div>
       </div>
 

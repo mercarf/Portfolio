@@ -24,7 +24,7 @@ const Project = ({ title, imgProject, altProject, tecnologies, linkWeb, linkRepo
               rel="noopener noreferrer"
               className="linkProject"
             >
-              <img src={web} className="web" />
+              <img src={web} className="web" alt='Imagen de web' />
               <span>Página web</span>
             </a>
             <a href={linkRepo}
@@ -32,7 +32,7 @@ const Project = ({ title, imgProject, altProject, tecnologies, linkWeb, linkRepo
               rel="noopener noreferrer"
               className="linkProject"
             >
-              <img src={github} className="repo" />
+              <img src={github} className="repo" alt='Imagen de Github' />
               <span>Repositorio</span></a>
           </div>
         </div>

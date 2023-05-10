@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import Links from '../Links/Links'
 
 const ContactMe = () => {
     const [values, setValues] = useState({
@@ -76,10 +75,10 @@ const ContactMe = () => {
     return (
         <div className="contactMe" id="contactMe">
             <h2 className="contactMe__title">Contacta conmigo</h2>
-            <p className="contactMe__text"><strong>¿Hablamos? 📞 </strong>Siempre estoy abierta a aprender; ahora mismo estoy buscando mi
-            primera oportunidad como <strong>desarrolladora Front End.</strong><br /><br /> Si crees que mi perfil profesional
-            encaja con lo que buscas o quieres darme feedback sobre mis proyectos,
-            <strong> ¡no dudes en contactarme!</strong> 📩</p>
+            <p className="contactMe__text"><strong>¿Hablamos? <span role="img" aria-label="Phone">📞</span> </strong>Siempre estoy abierta a aprender; ahora mismo estoy buscando mi
+                primera oportunidad como <strong>desarrolladora Front End.</strong><br /><br /> Si crees que mi perfil profesional
+                encaja con lo que buscas o quieres darme feedback sobre mis proyectos,
+                <strong> ¡no dudes en contactarme!</strong> 📩</p>
             <div className="contactMe__info">
                 <p className="contactMe__info__text">Puedes contactar conmigo al correo:</p>
                 <div className="contactMe__info__email">
@@ -102,7 +101,7 @@ const ContactMe = () => {
                 <p className="contactMe__info__text">O si lo prefieres, rellenando este formulario:</p>
             </div>
             {
-                isSubmitted ? (<article className="thanks"><h3 className="thanks__title">¡Gracias por aplicar! 😍</h3> <p className="thanks__sentence">Me pondré en contacto contigo lo antes posible. 📲</p> </article>) : (
+                isSubmitted ? (<article className="thanks"><h3 className="thanks__title">¡Gracias por aplicar! <span role="img" aria-label="FaceHeart">😍</span></h3> <p className="thanks__sentence">Me pondré en contacto contigo lo antes posible. <span role="img" aria-label="Panda">📲</span></p> </article>) : (
                     <form className="form" onSubmit={handleSubmit}>
                         <div className="form-item">
                             <label htmlFor="fullname"
@@ -149,7 +148,7 @@ const ContactMe = () => {
                         <div className="form-item">
                             <button className="button-send" value="Send" type="submit">
                                 Enviar
-                </button>
+                            </button>
                         </div>
 
                     </form>)

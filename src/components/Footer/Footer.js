@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer className="footer">
-      <span className="footer__copy">Realizado con <span>❤️</span> por <a href="https://github.com/mercarf/Portfolio" target="_blank" rel="noopener noreferrer">Mercedes</a> © 2020</span>
+      <span className="footer__copy">Realizado con <span role="img" aria-label="Panda">❤️</span> por <a href="https://github.com/mercarf/Portfolio" target="_blank" rel="noopener noreferrer">Mercedes</a> © 2020</span>
       <nav className="social-media">
         <ul>
           <li><a href="https://www.linkedin.com/in/mercedescarballal/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a></li>
